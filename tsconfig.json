@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "paths": {
+      "@components/*": ["./src/components/*"],
+      "@ui/*": ["./src/components/ui*"]
+    }
+  },
+  "files": [],
+  "references": [
+    {
+      "path": "./tsconfig.app.json"
+    },
+    {
+      "path": "./tsconfig.node.json"
+    }
+  ]
+}
