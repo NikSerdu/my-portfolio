@@ -65,7 +65,7 @@ const Header: FC = () => {
         <span className="dark:text-white text-grey">Dark</span>
       </div>
       <div className="">
-        <Button className="font-bold dark:bg-opacity-50">Contact me</Button>
+        <Button className="font-bold dark:bg-opacity-50 ">Contact me</Button>
       </div>
     </div>
   );

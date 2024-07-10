@@ -8,7 +8,7 @@ const Button: FC<TypeProps> = ({ className, ...rest }) => {
   return (
     <button
       className={cn(
-        "bg-primary rounded-[1000px] text-white px-8 py-4 hover:bg-opacity-90 transition duration-200",
+        "bg-primary rounded-[1000px] text-white px-8 py-4 hover:bg-opacity-90 dark:hover:bg-opacity-70 transition duration-200",
         className
       )}
       {...rest}
