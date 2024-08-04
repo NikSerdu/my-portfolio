@@ -5,10 +5,40 @@
 
 * {
   font-family: "Roboto", sans-serif;
+  scroll-behavior: smooth;
+}
+
+section {
+  scroll-margin-top: 80px;
 }
 
 @layer components {
   .container {
-    @apply max-w-[1400px] mx-auto;
+    @apply max-w-[1296px] mx-auto px-4;
+  }
+
+  h2 {
+    @apply text-8xl tracking-widest font-semibold dark:text-white max-[450px]:text-6xl max-[625px]:text-7xl;
+  }
+
+  h3 {
+    @apply text-5xl tracking-widest font-semibold dark:text-white;
   }
 }
+
+/* ::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 1);
+  background: white;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+  background: rgba(0, 0, 0, 1);
+  background: white;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #555;
+} */

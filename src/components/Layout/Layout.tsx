@@ -1,10 +1,10 @@
-import Header from "@components/Layout/Header";
 import { FC, PropsWithChildren } from "react";
 import Footer from "./Footer";
+import Header from "./Header";
 
 const Layout: FC<PropsWithChildren> = ({ children }) => {
   return (
-    <div className="dark:bg-black dark:text-white h-[100vh] ">
+    <div className="dark:bg-black dark:text-white  pt-5">
       <Header />
       {children}
       <Footer />
